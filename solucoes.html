@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soluções · Dedo Criativo</title>
+  <meta name="description" content="Projeto Marca Visual, Sessão Memória e Pacote Presença. Escolha o que faz mais sentido pra você." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-area">
+        <img src="assets/logo.svg" alt="Dedo Criativo" class="logo-img" />
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menu" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="solucoes.html" class="active">Soluções</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html" class="nav-cta">Conversar</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header section">
+    <div class="container">
+      <h1>O que eu faço</h1>
+      <p>Escolha o que faz mais sentido pra você agora.</p>
+    </div>
+  </section>
+
+  <!-- PACOTES -->
+  <section class="solutions-page section">
+    <div class="container">
+      <div class="packages-grid">
+
+        <div class="package-card" id="marca-visual">
+          <span class="package-tag">Para marcas</span>
+          <h2>Projeto Marca Visual</h2>
+          <p class="package-audience">Pra quem tem empresa, é consultor, professor ou cria infoprodutos.</p>
+          <ul class="package-list">
+            <li>Logo e identidade visual (cores, tipografia, manual)</li>
+            <li>Site ou landing page</li>
+            <li>Direção de arte pra redes sociais</li>
+            <li>Tudo pronto pra você usar</li>
+          </ul>
+          <div class="package-price">A partir de <strong>R$ [X]</strong></div>
+          <a href="contato.html" class="btn btn-outline btn-full">Quero esse</a>
+        </div>
+
+        <div class="package-card package-card-featured" id="pacote-presenca">
+          <span class="package-badge">Mais pedido</span>
+          <span class="package-tag">Completo</span>
+          <h2>Pacote Presença</h2>
+          <p class="package-audience">Pra quem quer tudo junto e resolvido.</p>
+          <ul class="package-list">
+            <li>Tudo do Projeto Marca Visual</li>
+            <li>Sessão de fotos profissional</li>
+            <li>Site com galeria integrada</li>
+            <li>30 dias de suporte depois da entrega</li>
+          </ul>
+          <div class="package-price">A partir de <strong>R$ [X]</strong></div>
+          <a href="contato.html" class="btn btn-primary btn-full">Quero esse</a>
+        </div>
+
+        <div class="package-card" id="sessao-memoria">
+          <span class="package-tag">Para eventos</span>
+          <h2>Sessão Memória</h2>
+          <p class="package-audience">Pra casais, famílias, eventos e aniversários.</p>
+          <ul class="package-list">
+            <li>Sessão de fotos (1 a 4 horas)</li>
+            <li>Direção de poses e estilo</li>
+            <li>Tratamento de cada foto</li>
+            <li>Galeria online pra baixar e compartilhar</li>
+          </ul>
+          <div class="package-price">A partir de <strong>R$ [X]</strong></div>
+          <a href="contato.html" class="btn btn-outline btn-full">Quero esse</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="how-it-works section section-light">
+    <div class="container">
+      <h2 class="section-title">Como funciona</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <span class="step-number">1</span>
+          <h3>Papo rápido</h3>
+          <p>A gente conversa 15 minutos, você me conta a ideia.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">2</span>
+          <h3>Briefing</h3>
+          <p>Te mando 5 perguntas simples pra alinhar.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">3</span>
+          <h3>Proposta</h3>
+          <p>Eu monto o pacote e o valor.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">4</span>
+          <h3>Criação</h3>
+          <p>Eu faço com calma e cuidado.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">5</span>
+          <h3>Aprovação</h3>
+          <p>A gente vê junto o resultado.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">6</span>
+          <h3>Entrega</h3>
+          <p>Arquivos organizados + um vídeo meu explicando como usar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq section">
+    <div class="container container-narrow">
+      <h2 class="section-title">Perguntas que sempre aparecem</h2>
+
+      <div class="faq-item">
+        <h3>Quanto tempo demora?</h3>
+        <p>Marca visual: 15 a 30 dias. Sessão de fotos: entrega em até 7 dias.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Como paga?</h3>
+        <p>Metade pra começar, metade na entrega.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Atende fora de BH?</h3>
+        <p>Design é 100% remoto, sim. Fotos fora de BH a gente combina o deslocamento.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>E se eu não tiver ideia pronta?</h3>
+        <p>Melhor ainda. A gente monta juntos do zero.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-final cta-final-small">
+    <div class="container">
+      <h2>Pronto pra começar?</h2>
+      <a href="contato.html" class="btn btn-primary">Bora conversar</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="assets/logo.svg" alt="Dedo Criativo" class="footer-logo" />
+      <div class="footer-links">
+        <a href="projetos.html">Projetos</a>
+        <a href="solucoes.html">Soluções</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://instagram.com/dedocriativo" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://behance.net/ramontiher" target="_blank" rel="noopener">Behance</a>
+        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="container footer-copy">
+      <p>© 2025 Dedo Criativo · Ramontiher Amaral · Belo Horizonte, MG</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
